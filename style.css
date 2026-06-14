@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b1220;
+  color: white;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: black;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #222;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Search */
+.search {
+  padding: 5px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+/* Cards */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.card {
+  background: #1c2333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Checker */
+.checker {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Health AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🔥 Navbar -->
+<header>
+  <h2>🤖 Smart Health AI</h2>
+
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li class="dropdown">Services ▼
+        <ul class="dropdown-menu">
+          <li>Health Check</li>
+          <li>AI Diagnosis</li>
+          <li>Reports</li>
+        </ul>
+      </li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <!-- 🔍 Search -->
+  <input type="text" placeholder="Search..." class="search">
+</header>
+
+<!-- 🔥 Hero Section -->
+<section class="hero">
+  <h1>AI Powered Health Checker</h1>
+  <p>Check your symptoms instantly using Expert System</p>
+  <button>Start Now</button>
+</section>
+
+<!-- 🔥 Features -->
+<section class="features">
+  <div class="card">⚡ Fast Diagnosis</div>
+  <div class="card">🤖 AI Based</div>
+  <div class="card">📊 Accurate Results</div>
+</section>
+
+<!-- 🔥 Checker -->
+<section class="checker">
+  <h2>Check Your Symptoms</h2>
+
+  <label><input type="checkbox" id="fever"> Fever</label>
+  <label><input type="checkbox" id="cough"> Cough</label>
+  <label><input type="checkbox" id="headache"> Headache</label>
+
+  <button onclick="checkDisease()">Check</button>
+
+  <h3 id="result"></h3>
+</section>
+
+<!-- 🔥 How it works -->
+<section class="info">
+  <h2>How It Works</h2>
+  <p>Uses IF-THEN rules (Expert System)</p>
+</section>
+
+<!-- 🔥 Footer -->
+<footer>
+  <p>© 2026 Smart Health AI</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
